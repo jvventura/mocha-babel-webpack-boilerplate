@@ -14,8 +14,13 @@
     "chai": "^3.5.0",
     "webpack": "^1.13.1"
   },
+  "babel": {
+    "presets": [
+      "babel-preset-es2015"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack && mocha"
   },
   "author": "",
   "license": "ISC"
